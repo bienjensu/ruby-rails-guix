@@ -1,0 +1,4 @@
+#!/gnu/store/9v9xjn6lvmavsqbsfr0s22ydmzldzq85-coreutils-9.1/bin/env ruby
+APP_PATH = File.expand_path("../config/application", __dir__)
+require_relative "../config/boot"
+require "rails/commands"
